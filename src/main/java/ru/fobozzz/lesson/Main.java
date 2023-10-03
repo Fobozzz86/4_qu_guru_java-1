@@ -47,7 +47,7 @@ public class Main {
 
         String name = "Artem";
         boolean canDrinkAlchogolByName = name != null && name.equals("Artem");
- //     5. instanceof
+ //     5. instanceof проверяет, что объект это String
         boolean isString = name instanceof String;
 //      6. Тернарный ? :                                                //!!! В ТЕСТАХ не ДОЛЖНО Быть Ветвлений
         boolean canDrinkAlchogol = sex.equals("male") ? true : false;
